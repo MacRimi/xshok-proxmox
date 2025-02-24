@@ -1,5 +1,5 @@
 > [!NOTE]
-> Correction to XS_LYNIS logic 24-02-2025
+> Correction to XS_LYNIS logic, 24-02-2025
 # xshok-proxmox :: eXtremeSHOK.com Proxmox (pve)
 
 Scripts for working with and optimizing proxmox
