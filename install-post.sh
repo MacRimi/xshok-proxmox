@@ -3,6 +3,7 @@
 # This is property of eXtremeSHOK.com
 # You are free to use, modify and distribute, however you may not remove this notice.
 # Copyright (c) Adrian Jon Kriel :: admin@extremeshok.com
+# Correction to XS_LYNIS logic by MacRimi 24-02-2025
 ################################################################################
 #
 # Script updates can be found at: https://github.com/extremeshok/xshok-proxmox
@@ -13,7 +14,7 @@
 #
 ################################################################################
 #
-# Tested on Proxmox Version: 7.1
+# Tested on Proxmox Version: 8.3
 #
 # Assumptions: Proxmox installed
 #
