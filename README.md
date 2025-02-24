@@ -1,3 +1,5 @@
+> [!NOTE]
+> Correction to XS_LYNIS logic
 # xshok-proxmox :: eXtremeSHOK.com Proxmox (pve)
 
 Scripts for working with and optimizing proxmox
