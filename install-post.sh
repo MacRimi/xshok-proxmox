@@ -326,12 +326,18 @@ if [ "${XS_CEPH,,}" == "yes" ] ; then
     echo "Y" | pveceph install
 fi
 
+# if [ "${XS_LYNIS,,}" == "yes" ] ; then
+#     # Lynis security scan tool by Cisofy
+#     wget -O - https://packages.cisofy.com/keys/cisofy-software-public.key | apt-key add -
+#     ## Add the latest lynis
+#     echo "deb https://packages.cisofy.com/community/lynis/deb/ stable main" > /etc/apt/sources.list.d/cisofy-lynis.list
+#     ## Refresh the package lists
+#     apt-get update > /dev/null 2>&1
+#     /usr/bin/env DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::='--force-confdef' install lynis
+# fi
+
 if [ "${XS_LYNIS,,}" == "yes" ] ; then
     # Lynis security scan tool by Cisofy
-    wget -O - https://packages.cisofy.com/keys/cisofy-software-public.key | apt-key add -
-    ## Add the latest lynis
-    echo "deb https://packages.cisofy.com/community/lynis/deb/ stable main" > /etc/apt/sources.list.d/cisofy-lynis.list
-    ## Refresh the package lists
     apt-get update > /dev/null 2>&1
     /usr/bin/env DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::='--force-confdef' install lynis
 fi
